@@ -47,6 +47,7 @@ matrix.comment("Erweiterungen")
 matrix.comment("calliope-net/pins")
 matrix.comment("calliope-net/matrix")
 matrix.init(matrix.ePages.y128)
+matrix.writeTextCharset(0, 0, matrix.matrix_text("kb-matrix-63"))
 matrix.displayMatrix()
 textArray = [""]
 textArrayIndex = 0
