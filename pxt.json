@@ -1,0 +1,26 @@
+{
+    "name": "kb-matrix-63",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "pins": "github:calliope-net/pins#v1.0.1",
+        "matrix": "github:calliope-net/matrix#v0.4.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.41",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
